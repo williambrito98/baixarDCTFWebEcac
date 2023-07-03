@@ -1,0 +1,29 @@
+{
+    "site_url": "https://cav.receita.fazenda.gov.br/ecac/",
+    "login": {
+        "btn_entrar_com_gov": "#login-dados-certificado > p:nth-child(2) > input[type=image]",
+        "btn_acesso_com_certificado": "#cert-digital > button"
+    },
+    "btn_declaracoes_e_demonstrativos": "#btn214",
+    "btn_assinar_e_transmitir_dctfweb": "#containerServicos214 > div:nth-child(2) > ul > li:nth-child(1) > a",
+    "alterarPerfil": {
+        "btn_alterar_perfil": "#btnPerfil",
+        "btn_botao_titular": "#formTitular > input.submit",
+        "input_cnpj": "#txtNIPapel2",
+        "btn_submit": "#formPJ > input.submit"
+    },
+    "iframe_dctfweb": "iframe#frmApp",
+    "DCTFWeb": {
+        "periodo_apuracao_inicial": "#txtDataInicio",
+        "periodo_apuracao_final": "#txtDataFinal",
+        "btn_exibir_situacao_declaracoes": "#ctl00_cphConteudo_btnExpandirContrairFiltroSituacaoDeclaracao",
+        "checkbox_exibir_todas": "#chkTodas",
+        "btn_pesquisar": "#ctl00_cphConteudo_btnFiltar",
+        "table_declaracoes": "#ctl00_cphConteudo_tabelaListagemDctf_GridViewDctfs",
+        "table_declaracoes_tr": "#ctl00_cphConteudo_tabelaListagemDctf_GridViewDctfs tbody tr:nth-child(2)",
+        "btn_emitir_recibo": "#ctl00_cphConteudo_tabelaListagemDctf_GridViewDctfs_ctl{}_lkbVisualizarRecibo",
+        "saldo_a_pagar": "#ctl00_cphConteudo_tabelaListagemDctf_GridViewDctfs_ctl{}_lblSaldoPagar",
+        "btn_visualizar_guia": "#ctl00_cphConteudo_tabelaListagemDctf_GridViewDctfs_ctl{}_lbkVisualizarDctf",
+        "btn_emitir_darf": "#LinkEmitirDARFIntegral"
+    }
+}

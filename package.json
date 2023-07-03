@@ -1,0 +1,40 @@
+{
+    "name": "baixarDCTFWebEcac",
+    "version": "1.0.0",
+    "description": "template for robots",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/Hubbots/robot-template.git"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/Hubbots/robot-template/issues"
+    },
+    "homepage": "https://gitlab.com/Hubbots/robot-template#readme",
+    "devDependencies": {
+        "dotenv": "^16.0.1",
+        "eslint": "^8.23.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.5",
+        "eslint-plugin-promise": "^6.0.1",
+        "git-commit-msg-linter": "^4.1.2"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cpf-cnpj-validator": "^1.0.3",
+        "puppeteer-core": "^14.1.0",
+        "validator": "^13.7.0",
+        "xlsx": "^0.18.5"
+    }
+}
